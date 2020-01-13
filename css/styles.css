@@ -1,0 +1,171 @@
+/* ****************** TAG SELECTORS********** */
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Background color */
+
+.coloured-section {
+    background-color: #393e46;
+    color: #f5e7e7;
+}
+.coloured-section#testimonials {
+  background-color: #ef8172;
+    color: #f5e7e7;
+
+}
+.white {
+  background-color: #f5e7e7;
+}
+/***************** Navar **************/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navar-brand {
+  padding-left: 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Downlod Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* heading */
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 15%  7%;
+    text-align: left;
+}
+
+
+/* Title image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features */
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+#features {
+  position: relative;
+}
+
+/* icon */
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #393e46;
+}
+
+/* testimonial */
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#testimonials {
+
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press */
+.press-logo {
+  width: 15%;
+  padding: 0 0 3%;
+  margin: 20px 20px 50px;
+}
+
+
+/* pricing*/
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* footer */
+}
+
+.vaysho:hover {
+  color: #393e46;
+}
+
+.vaysho {
+  color: #8f8f8f;
+}
+
+.footer-icon {
+  margin: 20px 10px;
+  color: #8f8f8f;
+}
+
+.footer-icon:hover {
+  color: #393e46;
+}
